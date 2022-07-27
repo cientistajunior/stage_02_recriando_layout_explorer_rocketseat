@@ -1,147 +1,139 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-.page {
-	margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	border: 1px solid red;
-	background: #2c2b3d;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background: #2c2b3d;
 
-	width: 1280px;
-	height: 720px;
+  width: 1280px;
+  height: 720px;
+}
 
-
+.page {
+  margin: 0 auto;
 }
 
 nav {
-	max-width: 1092px;
-	margin: 71px auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  max-width: 1092px;
+  margin: 71px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav ul {
-	list-style: none;
-	display: flex;
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: medium;
+  list-style: none;
+  display: flex;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: medium;
 }
 
-nav ul li+li {
-	margin-left: 64px;
+nav ul li + li {
+  margin-left: 64px;
 }
 
 nav li a {
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: medium;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: medium;
 }
 
 nav li a:hover {
-	color: #703a3a;
+  color: #703a3a;
 }
 
 main {
-	max-width: 1092px;
-	margin: 100px auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  max-width: 1092px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 main section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
+  gap: 59px;
 
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
 
-	gap: 59px;
+  text-align: center;
 
-	font-family: 'JetBrains Mono';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 40px;
-
-	text-align: center;
-
-	color: #ffffff;
+  color: #ffffff;
 }
 
 main section p {
-	text-align: center;
-	color: #C2C2C2;
+  text-align: center;
+  color: #c2c2c2;
 }
 
 section p {
-	
-	margin-top: 59px;
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 28px;
+  margin-top: 59px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 
-	text-align: center;
+  text-align: center;
 
-	color: #C2C2C2;
+  color: #c2c2c2;
 
-	mix-blend-mode: normal;
+  mix-blend-mode: normal;
 }
 
 main section h1 {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 section span {
-	color: #00BFA6;
+  color: #00bfa6;
 }
 
 footer {
-	position: absolute;
-	width: 462px;
-	height: 28px;
-	left: 434px;
-	top: 669px;
-
-	font-family: 'JetBrains Mono', monospace;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 28px;
-
-	margin-bottom: 20px;
-
-	text-align: center;
-
-	color: #ffffff;
-
-	border-top: 1px solid #00BFA6;
-	
+  font-family: "JetBrains Mono", monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  width: 0 auto;
 }
 
 footer a {
-	color: #ffffff;
+  color: #ffffff;
 
-	text-decoration: none;
+  text-decoration: none;
+}
+
+.line {
+  margin: 0 auto;
+  width: 568px;
+  border-top: 1px solid #00bfa6;
 }
 
 .cadeado {
-	width: 51px;
-	height: 62px;
+  position: absolute;
+  width: 51px;
+  height: 62px;
 
-	position:absolute;
-	left: 20px;
-	top: 638px;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
 }
